@@ -18,5 +18,5 @@ class Movie{
 }
 
 $actionFilm = new Movie('Alla ricerca del calice perduto','azione',2003);
-
+$horrorFilm = new Movie('Saw l\'\enigmista','horror',2010);
 ?>
