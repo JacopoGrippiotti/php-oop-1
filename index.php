@@ -5,7 +5,7 @@ class Movie{
     public $genre;
     public $year;
 
-    function __construct(String $_title,String $_genre, INT $_year){
+    function __construct($_title,String $_genre, INT $_year){
 
         $this->title = $_title;
         $this->genre = $_genre;
@@ -16,4 +16,7 @@ class Movie{
         return $this-> title;
     }
 }
+
+$actionFilm = new Movie('Alla ricerca del calice perduto','azione',2003);
+
 ?>
